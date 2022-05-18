@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Oswald:wght@200;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9bf7b9353.js" crossorigin="anonymous"></script>
+    <title>flextreino</title>
+</head>
+<body>
+    <header>
+        <div >
+            <nav class="flexbox">
+                
+                <img id="imglogo" src="https://images.pexels.com/photos/356079/pexels-photo-356079.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                <h1 id="titlelogo">Título</h1>
+                
+                <div id="redirecionar">
+                    <a target="blank" href="https://wa.me/19999283812821">Home</a>
+                    <a target="blank" href="https://wa.me/19999283812821">Profile</a>
+                    <a target="blank" href="https://wa.me/19999283812821">About</a>
+                </div>
+                 <div id="contatos">
+                    <a target="blank" href="https://wa.me/19999283812821"> Telefone </a>
+                    <a target="blank" href="https://mailto:teste@teste.com"> Email </a>
+                    <a target="blank" href="https://wa.me/19999283812821"> Whatsapp </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <h2 id="destaques">Destaques</h2>
+    </div>
+    <main >
+        <section>
+    <div class="flex">
+        
+        <div>
+            <div id="prod1">
+            <h1>Produto01</h1>
+            </div>  
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/11/49/computer-158743_960_720.png" alt="">
+            <div  onclick="displayAbout1()" id="arrow1">
+                <i id="animation1" class="fa-solid fa-caret-down"></i>
+            </div>
+            <div style="display: none;" id="textdetalhes1">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga natus dolore velit error ab numquam hic expedita quasi. Similique, excepturi eum! A corrupti, numquam laudantium harum sint at perspiciatis.</p>
+            </div>
+        </div>
+        <div>
+            <div id="prod2">
+                <h1>Produto02</h1>
+            </div> 
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/11/49/computer-158743_960_720.png" alt="">
+            <div  onclick="displayAbout2()" id="arrow2">
+                <i id="animation2" class="fa-solid fa-caret-down"></i>
+            </div>
+            <div style="display: none;" id="textdetalhes2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga natus dolore velit error ab numquam hic expedita quasi. Similique, excepturi eum! A corrupti, numquam laudantium harum sint at perspiciatis.</p>
+            </div>
+        </div>
+        <div>
+            <div id="prod3">
+                <h1>Produto03</h1>
+            </div> 
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/11/49/computer-158743_960_720.png" alt="">
+            <div onclick="displayAbout3()" id="arrow3">
+                <i id="animation3" class="fa-solid fa-caret-down"></i>
+            </div>
+        <div style="display: none;" id="textdetalhes3">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fuga natus dolore velit error ab numquam hic expedita quasi. Similique, excepturi eum! A corrupti, numquam laudantium harum sint at perspiciatis.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+<div id="inputcomentario">
+    <div>
+        <input type="text" placeholder="Comente o que você achou!">
+        <button>Enviar</button>
+    </div>
+</div>
+
+    </main>
+   <script>
+        function displayAbout1() {
+            var arrow = document.getElementById('animation1');
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('textdetalhes1');
+            textdetalhes1.classList.toggle('active')
+        }
+    </script> 
+    <script>
+        function displayAbout2() {
+            var arrow = document.getElementById('animation2');
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('textdetalhes2');
+            textdetalhes2.classList.toggle('active')
+        }
+    </script> 
+    <script>
+        function displayAbout3() {
+            var arrow = document.getElementById('animation3');
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('textdetalhes3');
+            textdetalhes3.classList.toggle('active')
+        }
+    </script> 
+    <!-- <script>
+        function displayAbout4() {
+            var arrow = document.getElementById('animation4');
+            arrow.classList.toggle('rotate')
+            var display = document.getElementById('textdetalhes4');
+            textdetalhes4.classList.toggle('active')
+        }
+    </script>  -->
+</body>
+</html>

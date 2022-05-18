@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: linear-gradient(90deg, #5165bd, #e6aa8e);
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Times New R   oman', Times, serif;
+    font-style: italic;
+    font-weight: 900;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/1119976/pexels-photo-1119976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: #dddddd;
+}
+/* header {
+    display:flex;
+    justify-content: space-around  ;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #000;
+ } */
+.flexbox {
+    /* background:linear-gradient(90deg, #faf600, #fc0000); */
+    /* box-shadow: 1px 1px 20px 1px #059672; */
+    /* border-bottom: 5px ridge rgb(236, 144, 4); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+
+    /* efeito vidro: background: rgba(255, 2, 2, 0.486);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    
+}
+.flexbox #titlelogo {
+    /* display: flex;
+    align-items: center; */
+    font-size: 230%;
+    padding: 10px;
+    color: #dddddd;
+    transition: 300ms;
+    border-radius: 10px 10px 10px 10px;
+}
+.flexbox #titlelogo:hover {
+    color: #00ff4c;
+}
+
+header .flexbox img {
+    /* display: flex; */
+    max-width: 130px;
+    padding: 5px;
+    /* box-shadow: 5px 5px 20px 5px #00ff4c; */
+    /* border: 1px solid rgb(236, 144, 4); */
+    border-radius: 10px 10px 10px 10px;
+}
+header .flexbox #redirecionar  {
+    /* background: linear-gradient(90deg, #6ae9c9, #1ab890 ); */
+    /* background-image: url(https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-around;
+    font-size: 110%;
+    align-items: center;
+    width: 700px;
+    border-radius: 10px 10px 10px 10px;
+}
+.flexbox #redirecionar a{ 
+    /* display: flex; */
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 120%;
+    color: #dddddd;
+    transition: 300ms;
+    
+    border-radius: 10px 10px 10px 10px;
+}
+.flexbox #redirecionar a:hover{
+    color: #00ff4c;
+}
+.flexbox #contatos {
+    
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.flexbox #contatos a {
+    /* background-image: url(https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    font-weight: 900;
+    font-size: 120%;
+    padding: 0px;
+    margin: 10px;
+    list-style: none;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    transition: 300ms;
+}
+.flexbox #contatos a:hover {
+    color: #00ff4c;
+}
+
+#destaques {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 260px;
+    padding: 10px;
+    /* margin: 0px; */
+    /* background: linear-gradient(90deg, #ddd, #ddd ); */
+    font-size: 400%;
+    color: #ddd;
+    font-family: 'Dancing Script', cursive;
+    transition: 300ms;
+}
+
+#destaques:hover {
+color: #00ff4c;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: solid #00ff4c; */
+    
+}
+
+.flex img {
+    display: flex;
+    background: linear-gradient(90deg, #faf600, #fc0000);
+    box-shadow: 1px 1px 20px 1px #059672;
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+.flex p {
+    display: flex;
+    background: linear-gradient(90deg, #dfe6e7, #dddddd);
+    font-size: 100%;
+    padding-top: 5px;
+    padding-inline-end: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    margin-top: 0px;
+    max-width: 200px;
+    max-height: 200px;
+    border: solid 3px #052096;
+    box-shadow: 1px 1px 20px 1px #059672;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#prod1 {
+    text-align: center;
+    color: #ddd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120%;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+#prod1:hover {
+    color: #00ff22;
+    box-shadow: 1px 1px 20px 1px #00ff22;
+    
+}
+#prod2 {
+    text-align: center;
+    color: #ddd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120%;
+    margin: 5px;
+    cursor: pointer;
+}
+#prod2:hover {
+    color: #00ff22;
+    box-shadow: 1px 1px 20px 1px #00ff22;
+}
+#prod3 {
+    text-align: center;
+    color: #ddd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120%;
+    margin: 5px;
+    cursor: pointer;
+}
+#prod3:hover {
+    color: #00ff22;
+    box-shadow: 1px 1px 20px 1px #00ff22;
+}
+
+
+#descricao {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#descricao div img {
+    background: linear-gradient(90deg, #ff0000, #052096);
+    box-shadow: 1px 1px 20px 1px #059672;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+#descricao p {
+    background: linear-gradient(90deg, #dfe6e7, #dddddd);
+    font-size: 70%;
+    padding-top: 5px;
+    padding-inline-end: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    margin-top: 0px;
+    max-width: 143px;
+    max-height: 150px;
+    border: solid 3px #052096;
+    box-shadow: 1px 1px 20px 1px #059672;
+    border-radius: 10px 10px 10px 10px;
+}
+#prod4 {
+    text-align: center;
+    color: #ddd;
+    font-family: 'Dancing Script', cursive;
+    font-size: 90%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#prod4:hover {
+    color: #00ff22;
+    box-shadow: 1px 1px 20px 1px #00ff22;
+}
+ #descricao img {
+        background: linear-gradient(90deg, #ff0000, #052096);
+        box-shadow: 1px 1px 20px 1px #059672;
+        max-width: 200px;
+        max-height: 200px;
+        margin-right: 0px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+#arrow1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+    color: #fc0000;
+}
+#arrow2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+    color: #fc0000;
+}
+
+#arrow3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+    color: #fc0000;
+}
+
+#arrow4 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+#animation1 {
+    transition: 300ms;
+}
+#animation2 {
+    transition: 300ms;
+}
+#animation3 {
+    transition: 300ms;
+}
+#animation4 {
+    transition: 300ms;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active {
+    display: block !important;
+}
+
+
+#inputcomentario {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    padding: 3px;
+    
+}
+#inputcomentario input {
+    max-width: 205px;
+    font-size: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+#inputcomentario button {
+    font-size: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #ff5100 50%, #ffd000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #052096;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -6px;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+#inputcomentario button:hover {
+    background-position: left bottom;
+    color: #fff;
+   
+}
